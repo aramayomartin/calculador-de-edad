@@ -1,0 +1,55 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color:#f07167;
+    width: 700px;
+    height: 150px;
+    border-radius: 1rem;
+    margin-top: 20px;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.life{
+    display:flex;
+    justify-content: flex-start;
+    margin-right: 16rem;
+    margin-top:3rem;
+}
+
+.homeButton{
+    background-color:#0081a7;
+    height:4rem;
+    width:4rem;
+    border-radius: 0.5rem;
+    border:transparent;
+
+    font-size: 2rem;
+}
+
+.homeButton:hover{
+    background-color: black;
+    color: #0081a7;
+}
+
+.form{
+    margin-top:1rem;
+}
+
+.formItems{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius:0.5rem;
+}
+
+.formButton{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}

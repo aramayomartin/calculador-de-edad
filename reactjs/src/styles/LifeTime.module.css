@@ -1,0 +1,108 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color:#f07167;
+    width: 700px;
+    height: 150px;
+    border-radius: 1rem;
+    margin-top: 20px;
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.life{
+    display:flex;
+    justify-content: flex-start;
+    margin-right: 17rem;
+    margin-top:3rem;
+}
+
+.homeButton{
+    background-color:#0081a7;
+    height:4rem;
+    width:4rem;
+    border-radius: 0.5rem;
+    border:transparent;
+
+    font-size: 2rem;
+}
+
+.homeButton:hover{
+    background-color: black;
+    color: #0081a7;
+}
+
+.press{
+    font-size: 1.5em;
+    padding-top: 0em;
+}
+
+.formItems{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius:0.5rem;
+}
+
+.formButton{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.centering{
+    display:flex;
+    justify-content:center;
+}
+
+.showResults{
+    width: 700px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+.results{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.resultItems{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    
+    
+    font-size: 1.5rem;   
+}
+
+.resultSelect{
+
+    font-size: 1.5rem;   
+    height:2rem;
+    border-radius:0.5rem;
+    margin-left: 1rem;
+}
+
+.button{
+    height: 5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color:#0081a7;
+    
+
+    color: white;
+    font-size: 2rem;
+}
+
+.button:hover{
+    background-color: white;
+    color:#0081a7;
+}
