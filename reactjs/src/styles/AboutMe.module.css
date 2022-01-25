@@ -83,18 +83,157 @@
 }
 
 
+.hb{
+    margin-top: 1rem;
+    width:45rem;
+}
+
+.homeButton{
+    background-color:#f07167;
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 0.5rem;
+    border:transparent;
+
+    font-size: 2rem;
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.homeButton:hover{
+    background-color: white;
+    color: #f07167;
+}
+
+/* 
+@media only screen and (max-width: 768px) {
+    .all{
+        display:flex;
+        justify-content: center;
+    }
+    
+    .things{
+        display:flex;
+        flex-direction: column;
+    }
+    .about{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:1rem;
+        align-items: center;
+    
+        background-color:#001219;
+        width: 100%;
+        height: auto;
+    
+        border-radius: 4rem;
+    
+        color: white;
+    }
+    
+    .name{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .presentation{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+    }
+    
+    .description{
+        text-align: justify;  
+        margin-top: 3rem;
+        width: 90%;
+    }
+    
+    .link{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .link:hover{
+        color: #f07167;
+    }
+    
+    .photo{
+        border-radius:100%;
+        width:15rem;
+        height: 15rem;
+    }
+    
+    .contactBox{
+        margin-right: 17rem;
+    }
+    
+    .contact{
+        text-decoration: none;
+        list-style:none;
+    
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;    
+    }
+    
+    .item{
+        font-size:2rem;
+        color: white;
+        margin: 1rem;
+    }
+    
+    .item:hover{
+        color: #f07167;
+    }
+    
+    
+    .hb{
+        margin-top: 1rem;
+        width:45rem;
+    }
+    
+    .homeButton{
+        background-color:#f07167;
+        height:2.5rem;
+        width:2.5rem;
+        border-radius: 0.5rem;
+        border:transparent;
+    
+        font-size: 2rem;
+    
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .homeButton:hover{
+        background-color: white;
+        color: #f07167;
+    }
+    
+
+} */
+
+
 @media (max-width:415px){
 
     .about{
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-top:0rem;
+        margin-top:1rem;
         align-items: center;
     
         background-color:#001219;
         width: 90%;
-        height: 40rem;
+        height: auto;
     
         border-radius: 4rem;
     
@@ -104,7 +243,7 @@
     
     .name{
         display:flex;
-        justify-content:flex-end;
+        justify-content:center;
     }
     
     .presentation{
@@ -123,7 +262,7 @@
     }
     
     .link:hover{
-        color: #f07167;
+        color: #EE9B00;
     }
     
     .photo{
@@ -151,17 +290,16 @@
     }
     
     .item:hover{
-        color: #f07167;
+        color: #EE9B00;
     }
     
     .contactBox{
         margin-right: 2.5rem;
     }
-}
+
 
 .hb{
     margin-top: 1rem;
-    width:45rem;
 }
 
 .homeButton{
@@ -171,7 +309,7 @@
     border-radius: 0.5rem;
     border:transparent;
 
-    font-size: 2rem;
+    font-size: 1rem;
 
     display: flex;
     justify-content:center;
@@ -181,4 +319,5 @@
 .homeButton:hover{
     background-color: white;
     color: #f07167;
+}
 }

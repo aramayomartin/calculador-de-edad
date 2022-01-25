@@ -53,3 +53,63 @@
     font-size: 1.5rem;
     border-radius: 0.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .all{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header{
+        background-color:#f07167;
+        width: 70%;
+        height: 20%;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .life{
+        margin-top:0;
+        margin-right: 3.5rem;
+    }
+    
+    .homeButton{
+        background-color:#0081a7;
+        height:2rem;
+        width:2rem;
+        border-radius: 0.5rem;
+        border:transparent;
+    
+        font-size: 1rem;
+    }
+    
+    .homeButton:hover{
+        background-color: black;
+        color: #0081a7;
+    }
+    
+    .form{
+        margin-top:1rem;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .formItems{
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        border-radius:0.5rem;
+    }
+    
+    .formButton{
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        margin-top:1rem;
+    }
+    
+
+
+}

@@ -91,7 +91,7 @@ export default function LifeTime({lifeTime,time}){
                 <Link to='/'><button className={styles.homeButton}><AiFillHome/></button></Link> 
                 <h1 className={styles.life}>Life Time</h1>
             </div>
-            <form action="" onSubmit={handleSubmit}>
+            <form action="" onSubmit={handleSubmit} className={styles.form}>
                 <p className={styles.press}>Ingress your date of birth.</p>
                 <label htmlFor="" className={styles.formItems}>Year</label>
                 <select name="Year" id="" onChange={handleForm}  className={styles.formItems}>
