@@ -78,6 +78,8 @@ export default function LifeTime({lifeTime,time}){
                 return <h1>{`${Math.floor(Math.abs(time.TimeLife/(1000*60)))} minutes.`}</h1>
             case 'Seconds':
                 return<h1>{`${Math.floor(Math.abs(time.TimeLife/(1000)))} seconds.`}</h1>
+            default : 
+                return <p> </p>
         }
     }
 
